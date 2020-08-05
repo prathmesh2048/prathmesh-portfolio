@@ -33,7 +33,7 @@ SECRET_KEY = 'vv)q5ixz)a0zrmaa^&9%uo&ps*vnvz7u!##6rq4odf9trx1aj8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['prathmesh-portfolio.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
