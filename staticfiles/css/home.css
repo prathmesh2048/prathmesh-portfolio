@@ -1,0 +1,111 @@
+ *{
+  margin:0;
+  padding: 0;
+  border: 0;
+
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+.header{
+
+
+  background-color:	#3b444b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.nav-item{
+  margin: 10px;
+}
+
+li a{
+  text-decoration: none;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  padding: 0 20px;
+
+}
+.navbar-brand{
+  font-size: 30px;
+}
+
+.button a{
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0% ;
+}
+.span-icons span{
+  margin-left: 20px;
+}
+.section{
+background-image: url('{% static "img/img1.jpg" %}');
+ background-size: cover;
+background-attachment: fixed;
+ background-repeat: no-repeat;
+ height: 90vh;
+ display: flex;
+
+ margin-top:81px;
+}
+
+.point{
+  font-size: 1.12em;
+  color:#f7f7f5;
+  font-weight: 700;
+}
+.about-me-text{
+  font-weight: 700;
+}
+nav .navbar-nav li a{
+  color: white !important;
+  }
+nav .navbar-brand{
+  color: white !important;
+}
+ul{
+  list-style: none ;
+}
+
+/* section for skills starts here  */
+.skills{
+  margin-top: 30px;
+
+}
+.skill-ul{
+  margin-right: 20px;
+  margin-bottom:  20px;
+}
+.backend li{
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.front-end li{
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+/* section for skills starts ends here  */
+.form-div{
+  -webkit-box-shadow: 4px 8px 14px -3px rgba(115,115,115,1);
+-moz-box-shadow: 4px 8px 14px -3px rgba(115,115,115,1);
+box-shadow: 4px 8px 14px -3px rgba(115,115,115,1);
+
+}
+.card{
+  overflow: hidden;
+
+
+}
+.card-img-top{
+  visibility: visible;
+  transition: 0.6s;
+}
+.card-img-top:hover{
+
+    transform: scale(1.5);
+}
